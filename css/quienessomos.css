@@ -1,0 +1,100 @@
+
+#quienessomos{
+	width: 100%;
+	max-width: 1600px;
+	float: left;
+}
+
+#quienessomos .title{
+	float: left;
+	width: auto;
+	font-family: arial;
+	font-size: 40px;
+	color: #ba0411;
+	font-weight: normal;
+	margin-left: 10%;
+}
+
+#quienessomos .logotipo2{
+	float: left;
+	width: 50%;
+	margin-left: 15%;
+	margin-right: 35%;
+
+}
+
+#quienessomos .title2{
+	clear: both;
+	width: 100%;
+	font-size: 20px;
+	margin-left: 35%;
+	padding-top: 5%;
+	font-family: arial;
+	font-size: normal;
+	color: #ba0411;
+}
+
+#quienessomos article{
+	float: left;
+	width: 100%;
+	max-width: 1600px;
+	margin:0;
+}
+
+#quienessomos .imagen{
+	padding: 20px;
+	width: 100px;
+}
+
+#quienessomos .texto{
+	width: 40%;
+	padding: left;
+	margin: 5px;
+
+}
+
+
+#quienessomos article img{
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin:0;
+}
+
+#quienessomos .art1{
+	width: 100%;
+	max-width: 1600px;
+	float: left;
+	padding-left: 45%;
+	padding-right: 100%;
+}
+.art2{
+	width: 100%;
+	float: left;
+	padding-left: 30%;
+	padding-right: 100%;
+}
+#quienessomos .art3{
+	width: 100%;
+	float: left;
+	padding-left: 40%;
+	padding-right: 100%;
+}
+
+#quienessomos article h2{
+	font-size: 20px;
+	margin:10;
+	width: 20%;
+
+}
+
+#quienessomos h2 {
+	width: 50%;
+	padding: 0;
+	margin:0;
+}
+
+#quienessomos p{
+	margin: 0;
+	padding: 0;
+}

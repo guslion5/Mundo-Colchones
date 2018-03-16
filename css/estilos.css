@@ -1,0 +1,386 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+body {
+	background-size: 100%;
+	background-image: url(../img/background.png);
+	font-family: centurygothic, ChampagneLimousines;
+	margin: 0px;
+	max-width: 1600px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {text-decoration: underline}
+
+#wrap{
+	width: 100%;
+	margin: auto;
+	clear: both;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	float: left;
+	background: transparent;
+
+}
+
+#subheader {
+	width: 100%;
+	margin: auto;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#logotipo{
+	float: left;
+	padding: 10px;
+	width: 30%;
+	box-sizing: border-box;
+}
+#logotipo img{
+	width: 100%;
+	padding-left: 2%
+}
+
+header #subheader nav{
+	margin-top: 18px;
+	width: 40%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+header #subheader nav ul{
+	width: 100%;
+	padding: 0%;
+}
+
+header #subheader nav ul li{
+
+	display: inline;
+	padding: 1%;
+}
+header #subheader nav ul li a:hover {
+	text-decoration: none;
+	color: #ba0411;
+}
+
+#logoparaiso {
+	width: 30%;
+	float: right;
+	padding: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#logoparaiso .img{
+	padding: auto;
+}
+
+#main {
+	width: 100%;
+	margin: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+
+#slideshow{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: transparent;
+	box-sizing: border-box;
+}
+#slideshow a{
+	width: 100%;
+	height: 100%;
+}
+
+#slideshow img{
+	width: 100%;
+	height: 100%;
+}
+
+.slidesjs-container {
+	width: 100%;
+	height: 100%;
+}
+
+.slidesjs-control {
+	width: 100%;
+	height: 100%;
+}
+
+#slideshow a slidesjs-previous slidesjs-navigation{
+display: none;
+}
+
+#slideshow a slidesjs-previous slidesjs-navigation{
+display: none;
+}
+
+#slideshow a slidesjs-play slidesjs-navigation {
+display: none;
+}
+
+#slideshow a slidesjs-stop slidesjs-navigation {
+display: none;
+}
+
+.slidesjs-navigation{
+	background: transparent;
+	color: #000;
+	display: none;
+}
+#slideshow ul {
+	background: transparent;
+	display: none;
+}
+
+
+.slidesjs-pagination{
+	margin: 0%;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: #fff;
+	padding: auto;
+	background: transparent;
+}
+	
+#slideshow li {
+	background: transparent;
+	display: inline-block;
+	color: #fff;
+	text-decoration:none;
+	padding: 10px;
+}
+/*bug*/
+
+#quienessomos .top .title {
+	color: transparent;
+}
+
+/*QUIENES SOMOS*/
+.quien{
+	color: #ba0411;
+	font-size: 30px;
+	padding:0 60% 0 10%;
+	width: 30%;
+	text-align: center;
+	font-family: arial;
+}
+
+.logotipo2{
+	width: 58%;
+	padding-left: 17%;
+	padding-right: 25%;
+	padding-bottom: 5%;
+}
+
+.bottom h3{
+	padding-left: 35%;
+    padding-right: 35%;
+    width: 30%;
+    text-align: center;
+    font-family: arial;
+    color: #ba0411;
+}
+.art1{
+	float: left;
+    padding-left: 40%;
+    width: 60%;
+}
+/*
+.art1 div{
+	width: 20%;
+	float: left;
+}*/
+#imagen{
+	width: 19%;
+    padding: 2%;
+    float: left;
+}
+#imagen img{
+	width: 100%;
+}
+#texto{
+	width: 70%;
+	padding-right: 7%;
+	float: left;
+}
+#texto h2{
+	margin-top:2%;
+	margin-bottom: 0%;
+	color: #ba0411;
+	font-size: 17px;
+	font-style: normal;
+}
+#texto p{
+	margin-top: 1%;
+	text-align: justify;
+	
+}
+
+.art2{
+	float: left;
+    padding-left: 30%;
+    width: 70%;
+}
+.art2 #imagen {
+	width: 16.3%;
+	padding: 1.7%;
+}
+.art2 #texto{
+	width: 74%;
+	padding-right: 6%;
+}
+
+.art3{
+	float: left;
+    padding-left: 35%;
+    width: 65%;
+}
+.art3 #imagen {
+	width: 17.5%;
+	padding: 1.8%;
+}
+.art3 #texto{
+	width: 72%;
+	padding-right: 6.4%;
+}
+
+
+
+/*LOS MAS VENDIDOS*/
+
+
+
+div#Vendidos {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+div#Vendidos h3{
+
+	color: #ba0411;
+	font-size: 50px;
+	font-family: arial;
+}
+div#Vendidos img{
+	width: 30%;
+	max-width: 400px;
+}
+
+/*SERVICIOS*/
+
+
+
+div#servicios {
+	height: ;
+	color: #fff;
+	width: 85%;
+	float: left;
+	background-image: url(../img/backgroundrojo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 5%;
+	padding-right: 15%;
+	padding-top: 3%;
+
+}
+
+div#servicios h3{
+	color: #fff;
+	width: 100%;
+	padding-top: 2%;
+	text-align: center;
+	font-family: arial;
+	font-size: 30px;
+	margin-top: 3%;
+	margin-bottom: 0;
+}
+
+#servicios .despacho{
+	width: 24%;
+	float: left;
+	text-align: center;
+	padding-left: 24%;
+	padding-bottom: 10%;
+	padding-top: 2%;
+}
+
+#servicios .despacho h2{
+	margin: 0;
+}
+
+.despacho img{
+	width: 60%;
+}
+
+#servicios .separador{
+	width: 4%;
+	float: left;
+	font-size: 7em;
+	text-align: center;
+}
+
+#servicios .calidad{
+	width: 24%;
+	float: left;
+	text-align: center;
+	padding-right: 24%;
+	padding-top: 2%;
+}
+.calidad img{
+	text-align: center;
+	width: 16%;
+	padding: 0 42%;
+}
+
+.calidad {
+	font-size: 1.5em;
+}
+
+
+
+
+
+}
+#footer{
+	width: 100%;
+	float: left;
+	font-family: arial;
+}
+
+#footer h3{
+	color: #ba0411;	
+}
+
+footer #cliente{
+	width: 15%;
+	padding-left: 5%;
+	float: left;
+}
+
+footer #paraiso{
+	width: 17%;
+	padding-left: 3%;
+	float: left;
+}
+
+footer #redes{
+	width: 35%;
+	padding-left: 3%;
+	padding-right: 20%;
+	float: left;
+}
